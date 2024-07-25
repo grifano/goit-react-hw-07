@@ -1,32 +1,35 @@
 <img src="./src/assets/react-logo.svg" alt="react logo" width="10%"/><img src="./src/assets/redux.png" alt="redux logo" width="10%"/>
 
-# Contact Book App v2 ( React + Redux )
+# Contact Book App v3 ( React + Redux + Async )
 
-## Module 6: Redux and Global State Managment
+## Module 7: Redux and Async
 
 <img src="./src/assets/screenshot.webp" alt="app screenshot" width="50%"/>
 
 ## Overview
 
-This is a simple Contact Book application that allows you to manage your contacts efficiently. The project is refactored previous version of [Contact Book App](https://github.com/grifano/goit-react-hw-03.git) to use Redux Toolkit for state management.
+This project is a refactored version of the ["Contact Book"](https://github.com/grifano/goit-react-hw-06.git) application. It uses Redux Toolkit for state management and interacts with a backend for storing contacts.
 
 ## Functionality
 
-- Add new contacts
-- Delete existing contacts
-- Filter contacts by name
-- Persist contacts in local storage
+- Manage contacts with a form for adding new contacts and a list for viewing and deleting contacts.
+- State management using Redux Toolkit.
+- Backend interaction using mockapi.io for contact storage.
+- Organized component structure with separate folders for each component.
+- Clean and readable code using Prettier.
 
 ## Technologies and Tools
 
+- Vite
 - React
 - Redux Toolkit
-- React Redux
-- Redux Persist
+- Axios
+- CSS Modules
+- Mockapi.io
 
 ## Live Demo
 
-- **Source Files**: [GitHub Repository](https://github.com/grifano/goit-react-hw-06.git)
+- **Source Files**: [GitHub Repository](https://github.com/grifano/goit-react-hw-07.git)
 - **Working Page**: [Live Preview](https://goit-react-hw-06-roan-two.vercel.app/)
 
 ## Project Setup
