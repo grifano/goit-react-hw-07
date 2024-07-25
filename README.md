@@ -1,60 +1,33 @@
 <img src="./src/assets/react-logo.svg" alt="react logo" width="10%"/><img src="./src/assets/redux.png" alt="redux logo" width="10%"/>
 
-# React + Redux Phonebook App
+# Contact Book App v2 ( React + Redux )
 
 ## Module 6: Redux and Global State Managment
 
 <img src="./src/assets/screenshot.webp" alt="app screenshot" width="50%"/>
 
-This repository contained the implementation of a phonebook application using React. The project was created with Vite, used Formik for forms, and styled components with CSS modules. The application had several key functionalities, which are summarized below:
+## Overview
 
-## Functionality Summary
+This is a simple Contact Book application that allows you to manage your contacts efficiently. The project is refactored previous version of [Contact Book App](https://github.com/grifano/goit-react-hw-03.git) to use Redux Toolkit for state management.
 
-- **Contact Storage**:
+## Functionality
 
-  - Implemented a form to add new contacts.
-  - Displayed a list of contacts.
-  - Included a search box for filtering contacts by name.
+- Add new contacts
+- Delete existing contacts
+- Filter contacts by name
+- Persist contacts in local storage
 
-- **Component Structure**:
+## Technologies and Tools
 
-  - Each component was organized in its own folder within `src/components`.
-  - Default exports were used for all components.
-
-- **Initial Contacts**:
-
-  - Predefined contacts were hardcoded for development and testing purposes.
-
-- **Search Functionality**:
-
-  - Provided a search input field to filter contacts.
-  - Filter logic was case-insensitive.
-
-- **Form Validation**:
-
-  - Used Formik for form creation.
-  - Integrated Yup for validation, enforcing:
-    - Required fields
-    - Minimum of 3 characters
-    - Maximum of 50 characters
-
-- **Adding Contacts**:
-
-  - Implemented functionality to add contacts with `name`, `number`, and a unique `id` generated using `nanoid`.
-
-- **Deleting Contacts**:
-
-  - Allowed users to delete contacts from the list.
-
-- **Local Storage**:
-
-  - Contacts were saved in local storage upon addition and deletion.
-  - On application load, contacts were retrieved from local storage and set in the state.
+- React
+- Redux Toolkit
+- React Redux
+- Redux Persist
 
 ## Live Demo
 
-- **Source Files**: [GitHub Repository](https://github.com/grifano/goit-react-hw-03.git)
-- **Working Page**: [Live Preview](https://goit-react-hw-03-sooty-alpha.vercel.app/)
+- **Source Files**: [GitHub Repository](https://github.com/grifano/goit-react-hw-06.git)
+- **Working Page**: [Live Preview](https://goit-react-hw-06-roan-two.vercel.app/)
 
 ## Project Setup
 
